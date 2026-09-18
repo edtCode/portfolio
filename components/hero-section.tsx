@@ -13,8 +13,8 @@ export function HeroSection() {
           <p className="mt-8 max-w-xl text-xl leading-relaxed text-[#393939] md:text-2xl">I solve hard problems, build useful products, and keep learning how the pieces fit together.</p>
           <div className="mt-9 flex flex-wrap gap-3">
             <a href="mailto:noshivam19@gmail.com" className="inline-flex items-center gap-2 rounded-full bg-black px-6 py-4 font-bold text-white transition-transform hover:-translate-y-1"><Mail className="h-5 w-5" /> Get in touch</a>
-            <a href="https://github.com" className="inline-flex items-center gap-2 rounded-full border-2 border-black bg-white px-6 py-4 font-bold transition-transform hover:-translate-y-1"><Github className="h-5 w-5" /> GitHub</a>
-            <a href="https://linkedin.com" className="inline-flex items-center gap-2 rounded-full border-2 border-black bg-white px-6 py-4 font-bold transition-transform hover:-translate-y-1"><Linkedin className="h-5 w-5" /> LinkedIn</a>
+            <a href="https://github.com/edtCode" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full border-2 border-black bg-white px-6 py-4 font-bold transition-transform hover:-translate-y-1"><Github className="h-5 w-5" /> GitHub</a>
+            <a href="https://www.linkedin.com/in/shivam-sharma-859b35349/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full border-2 border-black bg-white px-6 py-4 font-bold transition-transform hover:-translate-y-1"><Linkedin className="h-5 w-5" /> LinkedIn</a>
           </div>
         </div>
         <div className="relative mx-auto w-full max-w-md rotate-2">
