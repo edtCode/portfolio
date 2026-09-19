@@ -16,10 +16,10 @@ export function AboutSection() {
           <h2 className="max-w-2xl text-4xl font-black leading-tight md:text-6xl">A problem solver who likes to build.</h2>
           <div className="mt-7 space-y-5 text-lg leading-relaxed text-[#393939]">
             <p>I am Shivam Sharma, a third-year B.Tech student in Information Technology at the National Institute of Technology, Raipur.</p>
-            <p>I enjoy DSA, competitive programming, systems, and turning ideas into useful products. I have solved 655+ problems across platforms and participated in 60+ contests.</p>
+            <p>I enjoy DSA, competitive programming, systems, and turning ideas into useful products. I have solved 800+ problems across platforms and participated in 60+ contests.</p>
           </div>
           <div className="mt-8 grid grid-cols-3 gap-3">
-            {[['655+', 'problems solved'], ['60+', 'contests'], ['61', 'day streak']].map(([value, label]) => <div key={label} className="rounded-2xl border-2 border-black bg-[#f6f3ee] p-4"><strong className="text-3xl font-black">{value}</strong><span className="mt-1 block text-sm font-semibold leading-tight">{label}</span></div>)}
+            {[['800+', 'problems solved'], ['60+', 'contests'], ['61', 'day streak']].map(([value, label]) => <div key={label} className="rounded-2xl border-2 border-black bg-[#f6f3ee] p-4"><strong className="text-3xl font-black">{value}</strong><span className="mt-1 block text-sm font-semibold leading-tight">{label}</span></div>)}
           </div>
         </div>
       </div>
